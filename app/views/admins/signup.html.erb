@@ -1,0 +1,39 @@
+<div class="page-login">
+  <div class="ui centered grid container">
+    <div class="nine wide column">
+      <div class="ui fluid card">
+        <div class="content">
+        <form class="ui form" method="POST" action="/session">
+          <div class="field">
+            <label>First Name</label>
+            <input type="text" name="F_name" placeholder="First Name">
+          </div>
+          <div class="field">
+            <label>Last Name</label>
+            <input type="text" name="L_name" placeholder="Last Name">
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="text" name="email" placeholder="Eamil">
+          </div>
+          <div class="field">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Password">
+          </div>
+          <div class="field">
+            <label>Confirm Password</label>
+            <input type="password" name="C_password" placeholder="Confirm Password">
+          </div>
+          <button class="ui primary labeled icon button" type="submit">
+            <i class="unlock alternate icon"></i>
+            SignUp
+          </button>
+        </form>
+        <div class="ui message">
+              old to us? <a href="/signin">Sign In</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
