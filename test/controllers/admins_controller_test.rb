@@ -6,8 +6,8 @@ class AdminsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get login" do
-    get admins_login_url
+  test "should get signin" do
+    get admins_signin_url
     assert_response :success
   end
 

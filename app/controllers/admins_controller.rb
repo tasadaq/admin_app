@@ -2,6 +2,8 @@ class AdminsController < ApplicationController
   def signup
   end
 
-  def login
+
+  def signin
+
   end
 end
