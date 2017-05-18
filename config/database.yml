@@ -9,11 +9,11 @@ default: &default
 
 development:
   <<: *default
-  database: admin_app
+  database: fatima_college_new
 
 test:
   <<: *default
-  database: admin_app
+  database: fatima_college_new
 
 production:
   <<: *default
